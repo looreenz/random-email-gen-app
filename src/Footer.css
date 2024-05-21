@@ -1,0 +1,11 @@
+footer {
+    width: 100vw;
+  background-color: #ff9800; /* Arancione */
+  color: #fff; /* Testo bianco */
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}

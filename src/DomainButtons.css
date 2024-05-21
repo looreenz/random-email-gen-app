@@ -1,0 +1,19 @@
+#domain-buttons {
+  margin-bottom: 30px;
+}
+
+.domain-btn {
+  padding: 12px 24px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ff9800; /* Arancione */
+  color: #fff; /* Testo bianco */
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.domain-btn.active {
+  background-color: #ff5722; /* Tono più scuro di arancione per lo stato attivo */
+}
