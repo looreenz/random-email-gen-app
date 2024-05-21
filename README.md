@@ -18,7 +18,7 @@ Random E-mail Generator is a web application that allows users to generate rando
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/random-email-generator.git
+   git clone https://github.com/looreenz/random-email-generator.git
    ```
 
 2. Navigate to the project directory:
@@ -39,7 +39,7 @@ Random E-mail Generator is a web application that allows users to generate rando
    npm run dev
    ```
 
-5. Open your browser and visit `http://localhost:5173` to see the app in action.
+5. Open the app in your browser to see it in action.
 
 ### Contributing
 
@@ -69,7 +69,7 @@ Random E-mail Generator es una aplicación web que permite a los usuarios genera
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/your-username/random-email-generator.git
+   git clone https://github.com/looreenz/random-email-generator.git
    ```
 
 2. Navega al directorio del proyecto:
@@ -90,7 +90,7 @@ Random E-mail Generator es una aplicación web que permite a los usuarios genera
    npm run dev
    ```
 
-5. Abre tu navegador y visita `http://localhost:5173` para ver la aplicación en acción.
+5. Abre la aplicación en tu navegador para verla en acción.
 
 ### Contribuciones
 
@@ -120,7 +120,7 @@ Random E-mail Generator è un'applicazione web che consente agli utenti di gener
 1. Clona il repository:
 
    ```bash
-   git clone https://github.com/your-username/random-email-generator.git
+   git clone https://github.com/looreenz/random-email-generator.git
    ```
 
 2. Naviga nella directory del progetto:
@@ -141,7 +141,7 @@ Random E-mail Generator è un'applicazione web che consente agli utenti di gener
    npm run dev
    ```
 
-5. Apri il browser e visita `http://localhost:5173` per vedere l'app in esecuzione.
+5. Apri l'app nel tuo browser per vederla in esecuzione.
 
 ### Contributi
 
