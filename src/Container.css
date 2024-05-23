@@ -1,5 +1,5 @@
 .container {
-  background-color: #212121; /* Grigio leggermente più chiaro per il container */
+  background-color: #212121; /* Slightly lighter gray for the container */
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   padding: 40px;
@@ -9,7 +9,7 @@
 }
 
 h1 {
-  color: #ff9800; /* Arancione */
+  color: #ff9800; /* Orange */
   margin-bottom: 30px;
 }
 
@@ -17,7 +17,7 @@ h1 {
   padding: 12px 24px;
   font-size: 16px;
   cursor: pointer;
-  background-color: #4caf50; /* Verde */
+  background-color: #4caf50; /* Green */
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -25,7 +25,7 @@ h1 {
 }
 
 #generate-btn:hover {
-  background-color: #66bb6a; /* Tono leggermente più scuro di verde al passaggio del mouse */
+  background-color: #66bb6a; /* Slightly lighter green tone on the mouse hover */
 }
 
 #email-display {
@@ -34,19 +34,17 @@ h1 {
   font-size: 18px;
   padding: 20px;
   border-radius: 8px;
-  background-color: #424242; /* Grigio più scuro per l'area email */
+  background-color: #424242; /* Darker gray for the mail area */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  color: #fff; /* Testo bianco */
+  color: #fff; /* White text */
 }
 
 #copy-btn {
-  position: absolute; /* Posizionamento assoluto rispetto al div email-display */
-  top: 50%; /* Posizionamento verticale al centro del div email-display */
-  right: 10px; /* Spazio a destra del div email-display */
-  transform: translateY(
-    -50%
-  ); /* Traslazione verticale per centrare verticalmente il pulsante */
-  background: none; /* Rimuove lo sfondo */
-  border: none; /* Rimuove il bordo */
-  cursor: pointer; /* Mostra un cursore cliccabile */
+  position: absolute; /* Absolute positioning over the email-display div */
+  top: 50%; /* Vertical positioning */
+  right: 10px; /* Inline positioning */
+  transform: translateY(-50%); /* Vertical translate */
+  background: none; /* Quit the background */
+  border: none; /* Quit the border */
+  cursor: pointer; /* Shows a pointer cursor */
 }

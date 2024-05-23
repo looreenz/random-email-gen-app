@@ -7,10 +7,10 @@
   margin: 5px;
   font-size: 16px;
   cursor: pointer;
-  background-color: #ff9800; /* Arancione */
+  background-color: #ff9800; /* Orange */
   color: #fff;
 }
 
 .length-btn.active {
-  background-color: #ff5722; /* Tono più scuro di arancione per lo stato attivo */
+  background-color: #ff5722; /* Darker tone of orange for the active state */
 }
