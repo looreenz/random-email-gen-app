@@ -1,52 +1,35 @@
-import React from "react";
-import "./DomainButtons.css";
+import React from 'react';
+import './DomainButtons.css';
 
-interface DomainButtonsProps {
-  onSelect: (domain: string) => void;
-  selectedDomain: string | null;
+interface Props {
+  setSelectedDomain: (domain: string) => void;
 }
 
-const DomainButtons: React.FC<DomainButtonsProps> = ({
-  onSelect,
-  selectedDomain,
-}) => {
+const DomainButtons: React.FC<Props> = ({ setSelectedDomain }) => {
+  const domains = ["example.com", "mail.com", "domain.com", "email.com"];
+
+  const handleButtonClick = (event: React.MouseEvent<HTMLButtonElement>) => {
+    const buttons = document.querySelectorAll('.domain-btn');
+    buttons.forEach(button => button.classList.remove('active'));
+    event.currentTarget.classList.add('active');
+    setSelectedDomain(event.currentTarget.dataset.domain!);
+  };
+
   return (
     <div id="domain-buttons">
       <p>Select the domain:</p>
-      <button
-        className={`domain-btn ${
-          selectedDomain === "gmail.com" ? "active" : ""
-        }`}
-        onClick={() => onSelect("gmail.com")}
-      >
-        @gmail.com
-      </button>
-      <button
-        className={`domain-btn ${
-          selectedDomain === "icloud.com" ? "active" : ""
-        }`}
-        onClick={() => onSelect("icloud.com")}
-      >
-        @icloud.com
-      </button>
-      <button
-        className={`domain-btn ${
-          selectedDomain === "outlook.com" ? "active" : ""
-        }`}
-        onClick={() => onSelect("outlook.com")}
-      >
-        @outlook.com
-      </button>
-      <button
-        className={`domain-btn ${
-          selectedDomain === "yahoo.com" ? "active" : ""
-        }`}
-        onClick={() => onSelect("yahoo.com")}
-      >
-        @yahoo.com
-      </button>
+      {domains.map(domain => (
+        <button 
+          key={domain}
+          data-domain={domain}
+          onClick={handleButtonClick}
+          className="domain-btn"
+        >
+          {domain}
+        </button>
+      ))}
     </div>
   );
-};
+}
 
 export default DomainButtons;

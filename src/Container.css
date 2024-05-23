@@ -1,50 +1,40 @@
 .container {
-  background-color: #212121; /* Slightly lighter gray for the container */
+  background-color: #212121;
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   padding: 40px;
-  margin: 50px auto;
   max-width: 500px;
-  position: relative;
+  width: 100%;
+  text-align: center;
 }
 
 h1 {
-  color: #ff9800; /* Orange */
+  color: #ff9800;
   margin-bottom: 30px;
 }
 
-#generate-btn {
+.generate-btn {
   padding: 12px 24px;
+  margin: 5px;
   font-size: 16px;
   cursor: pointer;
-  background-color: #4caf50; /* Green */
+  background-color: #4caf50;
   color: #fff;
   border: none;
   border-radius: 8px;
   transition: background-color 0.3s ease;
 }
 
-#generate-btn:hover {
-  background-color: #66bb6a; /* Slightly lighter green tone on the mouse hover */
+.generate-btn:hover {
+  background-color: #66bb6a;
 }
 
-#email-display {
-  position: relative;
-  margin-top: 30px;
-  font-size: 18px;
-  padding: 20px;
-  border-radius: 8px;
-  background-color: #424242; /* Darker gray for the mail area */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  color: #fff; /* White text */
-}
-
-#copy-btn {
-  position: absolute; /* Absolute positioning over the email-display div */
-  top: 50%; /* Vertical positioning */
-  right: 10px; /* Inline positioning */
-  transform: translateY(-50%); /* Vertical translate */
-  background: none; /* Quit the background */
-  border: none; /* Quit the border */
-  cursor: pointer; /* Shows a pointer cursor */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+  .generate-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
 }

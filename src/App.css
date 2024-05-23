@@ -1,25 +1,26 @@
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #121212; /* Dark gray background */
-  color: #fff; /* White text to constrast */
+* {
+  box-sizing: border-box;
   margin: 0;
-  padding: 30px;
-  padding-bottom: 0;
-  /* display: flex; */
-  flex-direction: column;
+  padding: 0;
+}
+
+html, body, .app {
   height: 100%;
-  width: 100%;
-  overflow-x: hidden;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #fff;
 }
 
 .App {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
 }
 
 .Content {
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
