@@ -1,6 +1,6 @@
 import "./App.css";
-import Container from "./Container.tsx";
-import Footer from "./Footer.tsx";
+import Container from "./Components/Container.tsx";
+import Footer from "./Components/Footer.tsx";
 
 function App() {
   return (
