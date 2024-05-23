@@ -6,7 +6,7 @@ interface Props {
 }
 
 const DomainButtons: React.FC<Props> = ({ setSelectedDomain }) => {
-  const domains = ["example.com", "mail.com", "domain.com", "email.com"];
+  const domains = ["gmail.com", "icloud.com", "outlook.com", "yahoo.com"];
 
   const handleButtonClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     const buttons = document.querySelectorAll('.domain-btn');
