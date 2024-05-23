@@ -4,9 +4,12 @@ body {
   color: #fff; /* White text to constrast */
   margin: 0;
   padding: 30px;
-  display: flex;
+  padding-bottom: 0;
+  /* display: flex; */
   flex-direction: column;
-  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .App {
@@ -14,5 +17,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+}
+
+.Content {
+  flex: 1;
 }

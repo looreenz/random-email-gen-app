@@ -5,7 +5,9 @@ import Footer from "./Footer.tsx";
 function App() {
   return (
     <div className="App">
-      <Container />
+      <div className="Content">
+        <Container />
+      </div>
       <Footer />
     </div>
   );
