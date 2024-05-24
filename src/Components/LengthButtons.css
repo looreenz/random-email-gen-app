@@ -2,10 +2,15 @@
   margin-bottom: 30px;
 }
 
+#length-buttons p {
+  font-size: 18px;
+}
+
 .length-btn {
   padding: 12px 24px;
   margin: 5px;
   font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
   background-color: #ff9800; /* Orange */
   color: #fff;
@@ -13,4 +18,5 @@
 
 .length-btn.active {
   background-color: #ff5722; /* Darker tone of orange for the active state */
+  border: 2px solid #ff9800;
 }

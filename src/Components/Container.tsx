@@ -28,7 +28,6 @@ const Container: React.FC = () => {
 
   return (
     <div className="container">
-      <h1>Random E-mail Generator</h1>
       <DomainButtons setSelectedDomain={setSelectedDomain} />
       <LengthButtons setSelectedLength={setSelectedLength} />
       <button onClick={generateEmail} className="generate-btn">
